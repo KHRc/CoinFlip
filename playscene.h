@@ -17,7 +17,7 @@ class PlayScene : public QMainWindow
 public:
 	PlayScene(QWidget* parent = nullptr) {};
 	PlayScene(int index);
-	void PlayScene::paintEvent(QPaintEvent*);
+    void paintEvent(QPaintEvent*);
 	//·­×ªÖÜÎ§½ð±Ò
 	void flipCoins(int x, int y);
 	Coin* coinBtn[4][4] = { 0 };

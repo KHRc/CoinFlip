@@ -6,7 +6,7 @@
 
 QT       += core gui
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets multimedia
 
 TARGET = CoinFlip
 TEMPLATE = app
@@ -29,13 +29,17 @@ SOURCES += \
         button1.cpp \
         main.cpp \
         mainscene.cpp \
-        playscene.cpp
+        playscene.cpp \
+        Coin.cpp\
+        dataconfig.cpp
 
 HEADERS += \
         ChooseLevelScene.h \
         button1.h \
         mainscene.h \
-        playscene.h
+        playscene.h \
+        Coin.h\
+        dataconfig.h
 
 FORMS += \
         mainscene.ui
